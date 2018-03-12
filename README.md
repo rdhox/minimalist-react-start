@@ -4,18 +4,18 @@ This is my setup to start a project with React when I get a random idea, somethi
 
 I purposely kept the number of packages at his minimum. Here the list of the packages used:
 
-*express
-*pug
-*react
-*react-dom
-*browserify
-*babel-cli
-*babel-preset-env
-*babel-preset-react
-*babelify
-*watchify
-*react-hot-loader
-*livereactload
+  * express
+  * pug
+  * react
+  * react-dom
+  * browserify
+  * babel-cli
+  * babel-preset-env
+  * babel-preset-react
+  * babelify
+  * watchify
+  * react-hot-loader
+  * livereactload
 
 #USAGE
 
