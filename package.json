@@ -1,0 +1,27 @@
+{
+  "name": "minimalistreactstart",
+  "version": "0.1.0",
+  "description": "A minimalist start for your react application, with hot loader.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rdhox",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^16.1.1",
+    "express": "^4.16.2",
+    "pug": "^2.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babelify": "^8.0.0",
+    "livereactload": "^4.0.0-beta.2",
+    "react-hot-loader": "^4.0.0",
+    "watchify": "^3.11.0"
+  }
+}
