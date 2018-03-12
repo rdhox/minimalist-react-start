@@ -19,7 +19,7 @@ I purposely kept the number of packages at his minimum. Here the list of the pac
 
 #USAGE
 
-Once you clone the repositery, create a .babelrc file in the project's root directory with the content:
+Once you clone the repositery run `npm install` to install the packages, and create a .babelrc file in the project's root directory with the content:
 
 ```javascript
 {
