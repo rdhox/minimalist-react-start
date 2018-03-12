@@ -35,6 +35,8 @@ Open two terminals and :
 node server.js
 node_modules/.bin/watchify views/src/main.js -t babelify -p livereactload -o views/public/dist/bundle.js
 ```
-In your browser, go to "localhost:3000/", a "Hello World" should appear. 
+If you already have browserify and watchify installed globally, you can just skip the `node_modules/.bin/`.
 
-You can now go to /views/src/main.js and start working on your app. At each save, your browser will automatically refresh. 
+In your browser, go to `localhost:3000/`, a "Hello World" should appear. 
+
+You can now go to `/views/src/main.js` and start working on your app. At each save, your browser will automatically refresh. 
