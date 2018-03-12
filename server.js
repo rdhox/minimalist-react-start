@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 app.use(function(req, res, next){
     res.setHeader('Content-Type', 'text/plain');
     res.status(404).send('The page you try to reach is not available.');
-})
+});
 
 app.listen(3000, ()=> {
     console.log('listen on 3000');
